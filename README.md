@@ -21,7 +21,9 @@ The website has the following specifications -
 4. Transfer table/ Transaction History which records all the transactions
 
 Youtube link - https://youtu.be/C3DLkaTP0FI
+
 GitHub link- https://github.com/durvesh305/Sparks-Foundation-Bank
+
 Website link- https://durvesh305.github.io/Sparks-Foundation-Bank
 
 #thesparksfoundation #webdevelopment #intern
