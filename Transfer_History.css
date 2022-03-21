@@ -1,0 +1,118 @@
+* {
+    font-family: 'Baloo Bhai', cursive;
+    font-family: 'Bree Serif', serif;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 100px;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    border-radius: 30px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    margin: 8px;
+}
+
+.logo {
+    width: 150px;
+    height: 90px;
+    padding: 10px;
+    padding-left: 50px;
+    margin-top: 0px;
+    margin-left: 0px;
+    filter: invert(150%);
+}
+
+.heading {
+    margin-top: 20px;
+    font-size: 2rem;
+    color: white;
+}
+
+#Menu {
+    display: block;
+    width: 66%;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+#Menulist {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: right;
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.item a {
+    text-decoration: none;
+    color: white;
+    padding: 18px;
+}
+
+.item:hover {
+    text-decoration: underline;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bree Serif', serif;
+}
+
+#home::before {
+    content: "";
+    background: url('background bank.jpg') no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.85;
+}
+
+.container table {
+    line-height: 8px;
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 125px;
+}
+
+.container {
+    margin-left: 150px;
+    margin-right: 250px;
+}
+
+.table-bordered {
+    border-style: none;
+}

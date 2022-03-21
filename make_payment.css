@@ -1,0 +1,164 @@
+* {
+    font-family: 'Baloo Bhai', cursive;
+    font-family: 'Bree Serif', serif;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 100px;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    border-radius: 30px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    margin: 8px;
+}
+
+.logo {
+    width: 150px;
+    height: 90px;
+    padding: 10px;
+    padding-left: 50px;
+    margin-top: 0px;
+    margin-left: 0px;
+    filter: invert(150%);
+}
+
+.heading {
+    margin-top: 20px;
+    font-size: 2rem;
+    color: white;
+}
+
+#Menu {
+    display: block;
+    width: 66%;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+#Menulist {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: right;
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.item a {
+    text-decoration: none;
+    color: white;
+    padding: 18px;
+}
+
+.item a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bree Serif', serif;
+}
+
+#home::before {
+    content: "";
+    background: url('background bank.jpg') no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 850px;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.85;
+}
+
+.btn {
+    padding: 8px 24px;
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(41, 39, 39);
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+#button .btn-primary {
+    color: white;
+}
+
+#button .btn-primary a {
+    color: white;
+    text-decoration: none;
+}
+
+#button .btn {
+    padding: 8px 24px;
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(41, 39, 39);
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+#button .btn:hover {
+    text-decoration: underline;
+}
+
+.btn-info {
+    padding: 1rem 1.2rem;
+    background-color: transparent;
+    color: rgb(255, 255, 255)!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+}
+
+.container table {
+    line-height: 8px;
+    width: 80%;
+    height: 75%;
+    position: absolute;
+    top: 250px;
+    margin-left: 50px;
+}
+
+.container {
+    display: inline-block;
+    margin: auto;
+}
+
+.table-bordered {
+    border-style: none;
+}

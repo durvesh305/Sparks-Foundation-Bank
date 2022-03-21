@@ -1,0 +1,150 @@
+* {
+    font-family: 'Baloo Bhai', cursive;
+    font-family: 'Bree Serif', serif;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 100px;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    margin: 8px;
+}
+
+.logo {
+    width: 90px;
+    height: 70px;
+    padding: 10px;
+    padding-left: 50px;
+    margin-top: 0px;
+    margin-left: 0px;
+    filter: invert(150%);
+}
+
+.heading {
+    margin-top: 20px;
+    font-size: 2rem;
+    color: white;
+}
+
+#Menu {
+    display: block;
+    width: 66%;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+#Menulist {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: right;
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.item a {
+    text-decoration: none;
+    padding: 18px;
+}
+
+.item:hover {
+    text-decoration: underline;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bree Serif', serif;
+    margin-bottom: 14%;
+}
+
+#home::before {
+    content: "";
+    background: url('background bank.jpg') no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.85;
+}
+
+#home h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 5px rgb(41, 39, 39);
+    font-size: 2rem;
+}
+
+#home p {
+    font-size: 1.3rem;
+    margin-top: 18px;
+    text-align: center;
+    text-shadow: 3px 3px 4px rgb(37, 36, 36);
+}
+
+.btn {
+    padding: 8px 24px;
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(41, 39, 39);
+    margin: 10px;
+    cursor: pointer;
+}
+
+.but1 {
+    font-family: 'Bree Serif', serif;
+    text-shadow: 4px 4px 5px rgb(41, 39, 39);
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.but1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 1.1rem;
+    font-family: 'Bree Serif', serif;
+    padding: 8px;
+    margin-bottom: 0px;
+}
